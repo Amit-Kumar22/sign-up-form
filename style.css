@@ -1,0 +1,48 @@
+body{
+    background-image: url("background.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    background-color: cadetblue;
+    box-shadow: 3px 3px 12px black;
+      height: 537px;
+      top: 100px;
+      left: 418px;
+      margin: auto;
+      width: 50%;
+      padding: 15px;
+}
+.signupbtn{
+    margin-top: 18px;
+}
+#signup-form input{
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+}
+#btn{
+    width: 87%;
+    margin: auto;
+    padding: 10px;
+    margin: auto;
+    background: blue;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+#error, .signupbtn{
+    text-align: center;
+}
+@media screen and (max-width:720px) {
+    .container{
+          height: 100%;
+          top: 100px;
+          left: 418px;
+          margin: auto;
+          width: 100%;
+          padding: 10px;
+    }
+}
